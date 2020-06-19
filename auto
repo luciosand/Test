@@ -1,0 +1,16 @@
+!c::       
+SendInput `
+(
+Link
+)
+return
+
+!b::
+::todaysdate::
+FormatTime, date,, MM-dd-yy
+Send, %date%
+return
+
+!n::
+Run chrome.exe "https://www.facebook.com/" " --new-window "
+return
