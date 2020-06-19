@@ -12,5 +12,5 @@ Send, %date%
 return
 
 !n::
-Run chrome.exe "https://www.facebook.com/" " --new-window "
+Run chrome.exe "https://www.innovative-marine.com/" " --new-window "
 return
